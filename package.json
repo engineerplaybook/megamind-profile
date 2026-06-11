@@ -1,9 +1,24 @@
 {
-  "name": "profile-static",
-  "version": "1.0.0",
-  "type": "module",
+  "name": "profile",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "npx serve -p 8080 .",
-    "build": "node build-profile.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@engineerplaybook/design-system": "^0.1.0",
+    "next": "16.1.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "typescript": "^5"
   }
 }
